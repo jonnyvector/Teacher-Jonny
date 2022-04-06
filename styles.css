@@ -649,19 +649,36 @@ span.pricing-title:after {
     width: 300px;
     /* margin-bottom: 24px; */
   }
+  
+  .usp-container{
+    padding: 10px;
+  }
+
+  .how-it-works{
+    padding: 10px;
+  }
 
   .hiw-steps {
     margin-bottom: 80px;
   }
 
   .hiw-image{
-    /* width: 250px; */
+    /* width: 250 */
   }
 
   .mid-image {
     margin-bottom: 128px;
   }
 
+  .one-on-one-container{
+    padding: 10px;
+  }
+
+  .one-on-one-image img{
+    width: 300px;
+  }
+
+ 
   .pay-button {
     width: 65%;
     height: 40px;
@@ -684,7 +701,7 @@ span.pricing-title:after {
 /* bottom: 0; */
 /* }  */
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 760px) {
   h1 {
     font-size: 32px;
     margin: 10px;
@@ -831,8 +848,19 @@ span.pricing-title:after {
   }
 
   .how-it-works {
-    margin: 0 56px;
+    margin: 0px;
     flex-direction: column;
+    padding: 0;
+  }
+
+  .hiw-image{
+    margin: 0 auto;
+    width: 175px;
+    padding: 0;
+  }
+
+  .hiw-steps{
+    margin-bottom: 48px;
   }
 
   .usp {
@@ -841,8 +869,10 @@ span.pricing-title:after {
   }
 
   #dotted-arrow {
-    transform: translateY(-42px) rotate(90deg);
-    margin-top: 0px;
+    display: none;
+    /* transform: translateY(-42px) rotate(90deg);
+    margin:0;
+    width: 100px; */
   }
 
   .usp > p {
