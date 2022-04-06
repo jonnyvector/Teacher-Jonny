@@ -835,12 +835,14 @@ span.pricing-title:after {
 
   .left-image img{
     width: 250px;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-bottom: 32px;
+    margin-top: 32px;
   }
   .right-image img{
     width: 250px;
-    margin-right: 90px;
+    margin-top: 24px;
+    margin-right: 70px;
   }
 
   .mid-text{
@@ -866,6 +868,7 @@ span.pricing-title:after {
   .usp {
     flex-direction: column;
     margin: 0 40px;
+  
   }
 
   #dotted-arrow {
@@ -876,7 +879,7 @@ span.pricing-title:after {
   }
 
   .usp > p {
-    margin: 14px 0 74px 0;
+    margin: 14px 0 48px 0;
   }
 
   .pricing-container {
