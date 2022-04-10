@@ -1,6 +1,12 @@
 var headerBtn = document.getElementsByClassName("header-btn")[0];
 var payButtons = document.querySelectorAll(".pay-button");
 
+var header = document.querySelector("header");
+
+header.addEventListener("click", function () {
+  console.log("clicked");
+});
+
 var dataId = "";
 // console.log(dataId);
 
@@ -26,9 +32,10 @@ console.log(dataId);
 // console.log(dataId);
 
 window.addEventListener("scroll", function () {
-  var header = document.querySelector("header");
   header.classList.toggle("sticky", window.scrollY > 0);
 });
+
+console.log(window);
 
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
