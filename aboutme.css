@@ -10,6 +10,16 @@ body {
   height: 100%;
 }
 
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #03c29e;
+}
+
 h3 {
   font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 24px;
@@ -52,7 +62,7 @@ span {
 }
 
 .aboutme-text-container {
-  margin: 48px;
+  margin: 48px 64px;
   width: 50%;
 }
 
@@ -61,9 +71,92 @@ span {
 }
 
 .aboutme-img {
+  margin: 12px;
   width: 500px;
 }
 
 #aboutMeHeader {
   color: #03c29e;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: cetner;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+  .aboutme-container {
+    /*  */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 64px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .aboutme-text-container {
+    width: 60%;
+  }
+
+  #aboutme-ed-container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .aboutme-container {
+    /*  */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 64px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .aboutme-text-container {
+    width: 80%;
+  }
+
+  #aboutme-ed-container {
+    flex-direction: column-reverse;
+  }
+
+  .aboutme-img {
+    margin: 12px;
+    width: 300px;
+  }
 }
