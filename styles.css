@@ -496,9 +496,27 @@ h1 {
   /* bottom: 0; */
 }
 
-.pay-button:hover {
+.buy-button{
+  font-style: Poppins;
+  font-size: 18px;
+  background-color: white;
+  width: 65%;
+  border: none;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 6px 12px;
+  font-weight: 600;
+  box-shadow: 0px 2px 8px RGB(18, 158, 134, 100);
+  transition: all 0.3s ease-out;
+  display: block;
+  text-decoration: none;
+  color: #03c29e;
+  margin-top: 24px;
+}
+
+.buy-button:hover {
   background-color: rgb(207, 204, 204);
-  color: white;
+  /* color: white; */
   
 }
 

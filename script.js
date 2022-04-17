@@ -1,5 +1,5 @@
 var headerBtn = document.getElementsByClassName("header-btn")[0];
-var payButtons = document.querySelectorAll(".pay-button");
+// var payButtons = document.querySelectorAll(".pay-button");
 
 var header = document.querySelector("header");
 
@@ -10,18 +10,18 @@ header.addEventListener("click", function () {
 var dataId = "";
 // console.log(dataId);
 
-payButtons[1].addEventListener("click", function () {
-  var dataId = $(this).attr("data-id");
-  console.log(dataId);
-  console.log("clicked");
-});
-payButtons[3].addEventListener("click", function () {
-  dataId = $(this).attr("data-id");
-  console.log(dataId);
-  console.log("clicked");
-});
+// payButtons[1].addEventListener("click", function () {
+//   var dataId = $(this).attr("data-id");
+//   console.log(dataId);
+//   console.log("clicked");
+// });
+// payButtons[3].addEventListener("click", function () {
+//   dataId = $(this).attr("data-id");
+//   console.log(dataId);
+//   console.log("clicked");
+// });
 
-console.log(dataId);
+// console.log(dataId);
 
 // payButtons[0].addEventListener("click", function () {
 //   console.log("clicked");
@@ -82,140 +82,140 @@ document.querySelectorAll(".nav-link").forEach((n) =>
   })
 );
 
-payButtons[0].addEventListener("click", function () {
-  fetch("/create-checkout-session", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      items: [{ id: 1, quantity: 1 }],
-    }),
-  })
-    .then((res) => {
-      if (res.ok) return res.json();
-      return res.json().then((json) => Promise.reject(json));
-    })
-    .then(({ url }) => {
-      // console.log("Hi");
-      window.location = url;
-    })
-    .catch((e) => {
-      console.error(e.error);
-    });
-});
+// payButtons[0].addEventListener("click", function () {
+//   fetch("/create-checkout-session", {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json",
+//     },
+//     body: JSON.stringify({
+//       items: [{ id: 1, quantity: 1 }],
+//     }),
+//   })
+//     .then((res) => {
+//       if (res.ok) return res.json();
+//       return res.json().then((json) => Promise.reject(json));
+//     })
+//     .then(({ url }) => {
+//       // console.log("Hi");
+//       window.location = url;
+//     })
+//     .catch((e) => {
+//       console.error(e.error);
+//     });
+// });
 
-payButtons[1].addEventListener("click", function () {
-  fetch("/create-checkout-session", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      items: [{ id: 2, quantity: 1 }],
-    }),
-  })
-    .then((res) => {
-      if (res.ok) return res.json();
-      return res.json().then((json) => Promise.reject(json));
-    })
-    .then(({ url }) => {
-      // console.log("Hi");
-      window.location = url;
-    })
-    .catch((e) => {
-      console.error(e.error);
-    });
-});
+// payButtons[1].addEventListener("click", function () {
+//   fetch("/create-checkout-session", {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json",
+//     },
+//     body: JSON.stringify({
+//       items: [{ id: 2, quantity: 1 }],
+//     }),
+//   })
+//     .then((res) => {
+//       if (res.ok) return res.json();
+//       return res.json().then((json) => Promise.reject(json));
+//     })
+//     .then(({ url }) => {
+//       // console.log("Hi");
+//       window.location = url;
+//     })
+//     .catch((e) => {
+//       console.error(e.error);
+//     });
+// });
 
-payButtons[2].addEventListener("click", function () {
-  fetch("/create-checkout-session", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      items: [{ id: 3, quantity: 1 }],
-    }),
-  })
-    .then((res) => {
-      if (res.ok) return res.json();
-      return res.json().then((json) => Promise.reject(json));
-    })
-    .then(({ url }) => {
-      // console.log("Hi");
-      window.location = url;
-    })
-    .catch((e) => {
-      console.error(e.error);
-    });
-});
+// payButtons[2].addEventListener("click", function () {
+//   fetch("/create-checkout-session", {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json",
+//     },
+//     body: JSON.stringify({
+//       items: [{ id: 3, quantity: 1 }],
+//     }),
+//   })
+//     .then((res) => {
+//       if (res.ok) return res.json();
+//       return res.json().then((json) => Promise.reject(json));
+//     })
+//     .then(({ url }) => {
+//       // console.log("Hi");
+//       window.location = url;
+//     })
+//     .catch((e) => {
+//       console.error(e.error);
+//     });
+// });
 
-payButtons[3].addEventListener("click", function () {
-  fetch("/create-checkout-session", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      items: [{ id: 4, quantity: 1 }],
-    }),
-  })
-    .then((res) => {
-      if (res.ok) return res.json();
-      return res.json().then((json) => Promise.reject(json));
-    })
-    .then(({ url }) => {
-      // console.log("Hi");
-      window.location = url;
-    })
-    .catch((e) => {
-      console.error(e.error);
-    });
-});
+// payButtons[3].addEventListener("click", function () {
+//   fetch("/create-checkout-session", {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json",
+//     },
+//     body: JSON.stringify({
+//       items: [{ id: 4, quantity: 1 }],
+//     }),
+//   })
+//     .then((res) => {
+//       if (res.ok) return res.json();
+//       return res.json().then((json) => Promise.reject(json));
+//     })
+//     .then(({ url }) => {
+//       // console.log("Hi");
+//       window.location = url;
+//     })
+//     .catch((e) => {
+//       console.error(e.error);
+//     });
+// });
 
-payButtons[4].addEventListener("click", function () {
-  fetch("/create-checkout-session", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      items: [{ id: 5, quantity: 1 }],
-    }),
-  })
-    .then((res) => {
-      if (res.ok) return res.json();
-      return res.json().then((json) => Promise.reject(json));
-    })
-    .then(({ url }) => {
-      // console.log("Hi");
-      window.location = url;
-    })
-    .catch((e) => {
-      console.error(e.error);
-    });
-});
+// payButtons[4].addEventListener("click", function () {
+//   fetch("/create-checkout-session", {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json",
+//     },
+//     body: JSON.stringify({
+//       items: [{ id: 5, quantity: 1 }],
+//     }),
+//   })
+//     .then((res) => {
+//       if (res.ok) return res.json();
+//       return res.json().then((json) => Promise.reject(json));
+//     })
+//     .then(({ url }) => {
+//       // console.log("Hi");
+//       window.location = url;
+//     })
+//     .catch((e) => {
+//       console.error(e.error);
+//     });
+// });
 
-payButtons[5].addEventListener("click", function () {
-  fetch("/create-checkout-session", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      items: [{ id: 6, quantity: 1 }],
-    }),
-  })
-    .then((res) => {
-      if (res.ok) return res.json();
-      return res.json().then((json) => Promise.reject(json));
-    })
-    .then(({ url }) => {
-      // console.log("Hi");
-      window.location = url;
-    })
-    .catch((e) => {
-      console.error(e.error);
-    });
-});
+// payButtons[5].addEventListener("click", function () {
+//   fetch("/create-checkout-session", {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json",
+//     },
+//     body: JSON.stringify({
+//       items: [{ id: 6, quantity: 1 }],
+//     }),
+//   })
+//     .then((res) => {
+//       if (res.ok) return res.json();
+//       return res.json().then((json) => Promise.reject(json));
+//     })
+//     .then(({ url }) => {
+//       // console.log("Hi");
+//       window.location = url;
+//     })
+//     .catch((e) => {
+//       console.error(e.error);
+//     });
+// });
