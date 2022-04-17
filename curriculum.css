@@ -4,8 +4,10 @@
   padding: 0;
 }
 
-.header {
-  margin: 128px 64px 0px 64px;
+.curriculum-header {
+  max-width: 1104px;
+  margin: 0 auto;
+  margin-top: 128px;
   text-align: center;
 }
 
@@ -25,12 +27,16 @@
 }
 
 .mid-header {
+  max-width: 1104px;
+  margin: 0 auto;
   text-align: center;
   display: block;
-  margin-top: 128px;d
+  margin-top: 128px;
 }
 
 .curr-usp-container {
+  max-width: 1104px;
+  margin: 0 auto;
   margin-top: 128px;
   display: flex;
   align-items: center;
@@ -48,4 +54,30 @@
 .curr-usp-text {
   margin: 64px 0;
   width: 350px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .header-image img {
+    width: 600px;
+  }
+  .curr-usp-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .header-image img {
+    /* margin: 0 24px; */
+    width: 350px;
+    margin-top: 24px;
+  }
+
+  .header-text {
+    margin: 16px;
+  }
+  .curr-usp-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
