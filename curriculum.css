@@ -106,6 +106,9 @@ body {
 }
 
 @media only screen and (max-device-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
   .header-image img {
     /* margin: 0 24px; */
     width: 350px;

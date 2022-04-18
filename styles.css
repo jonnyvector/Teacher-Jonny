@@ -759,11 +759,24 @@ span.pricing-title:after {
 /* }  */
 
 @media only screen and (max-width: 760px) {
-  h1 {
+  .top-text h1 {
     font-size: 32px;
     margin: 10px;
   }
 
+  span .word-first, span .word{
+    font-size: 32px;
+  }
+  span .hiw-first, span .hiw{
+    font-size: 32px;
+  }
+  span.testimonial-title, span.testimonial-title2 {
+    font-size: 32px;
+  }
+  
+  span.pricing-title {
+    font-size: 32px;
+  }
   h2 {
     font-family: Poppins;
     font-weight: 600;
