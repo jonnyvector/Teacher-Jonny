@@ -121,5 +121,10 @@ body {
   .curr-usp-container {
     display: flex;
     flex-direction: column;
+    margin-top: 64px;
+  }
+
+  .mid-header {
+    margin-top: 64px;
   }
 }

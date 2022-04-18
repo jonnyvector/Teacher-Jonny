@@ -36,7 +36,7 @@ span {
 
 .header {
   text-align: center;
-  margin: 164px 0px 80px 0px;
+  margin: 128px 0px 80px 0px;
   width: 100%;
 }
 
@@ -118,7 +118,7 @@ span {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 64px;
+    margin-bottom: 48px;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
@@ -135,6 +135,12 @@ span {
 }
 
 @media only screen and (max-device-width: 768px) {
+  .header {
+    text-align: center;
+    margin: 128px 0px 64px 0px;
+    width: 100%;
+  }
+
   .header h1 {
     font-size: 32px;
   }
