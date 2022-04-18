@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow: visible;
+  box-sizing: border-box;
+}
+
 .curriculum-header {
   max-width: 1104px;
   margin: 0 auto;
@@ -45,10 +52,8 @@
 }
 
 .curr-usp-img {
+  width: 150px;
   margin-top: 64px;
-}
-.curr-usp-img img {
-  width: 250px;
 }
 
 .curr-usp-text {
