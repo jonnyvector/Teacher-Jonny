@@ -113,6 +113,7 @@ body {
     /* margin: 0 24px; */
     width: 350px;
     margin-top: 24px;
+    margin-bottom: 0px;
   }
 
   .curriculum-header h1 {
@@ -128,9 +129,13 @@ body {
     margin-top: 64px;
   }
   .curr-usp-img {
-    width: 150px;
-    margin-top: 64px;
+    width: 120px;
+    margin-top: 48px;
     margin-bottom: 0px;
+  }
+  .curr-usp-text {
+    margin: 24px 0px 56px 0px;
+    width: 350px;
   }
 
   .mid-header {
