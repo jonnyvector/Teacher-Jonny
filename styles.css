@@ -253,7 +253,7 @@ h1 {
 }
 
 .usp-image {
-  width: 130px;
+  width: 110px;
   display: block;
   margin: 0 auto;
 }
@@ -867,6 +867,11 @@ span.pricing-title:after {
     margin-top: 8px;
   }
 
+  .top-text h1 {
+    font-size: 32px;
+    margin: 24px;
+  }
+  
   .video > img {
     width: 350px;
   }
@@ -880,6 +885,7 @@ span.pricing-title:after {
     /* margin: 32px 12px; */
     font-size: 16px;
     color: #222222;
+    margin: 0px 6px 0px 6px;
   }
 
   .usp-container {

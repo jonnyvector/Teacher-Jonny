@@ -146,19 +146,21 @@ span {
 @media only screen and (max-device-width: 768px) {
   .header {
     text-align: center;
-    margin: 128px 0px 64px 0px;
+    margin: 128px 0px 48px 0px;
     width: 100%;
   }
 
   .header h1 {
+    font-family: Montserrat;
     font-size: 32px;
+    margin: 0px 6px 0px 6px;
   }
   .aboutme-container {
     /*  */
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 64px;
+    margin-bottom: 48px;
     margin-left: 0;
     margin-right: 0;
     padding: 0;

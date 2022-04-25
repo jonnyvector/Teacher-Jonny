@@ -115,6 +115,10 @@ body {
     margin-top: 24px;
   }
 
+  .curriculum-header h1 {
+    margin: 0px 6px 0px 6px;
+  }
+
   .header-text {
     margin: 16px;
   }
@@ -122,6 +126,11 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 64px;
+  }
+  .curr-usp-img {
+    width: 150px;
+    margin-top: 64px;
+    margin-bottom: 0px;
   }
 
   .mid-header {
