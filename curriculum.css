@@ -25,12 +25,12 @@ body {
 }
 
 .header-image img {
-  width: 750px;
-  margin-top: 128px;
+  width: 600px;
+  margin-top: 80px;
 }
 
 .header-text {
-  margin: 128px 64px 0 64px;
+  margin: 80px 64px 0 64px;
 }
 
 .mid-header {
