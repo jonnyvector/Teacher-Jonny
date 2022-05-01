@@ -695,6 +695,11 @@ span.pricing-title:after {
   margin-top: 24px;
 }
 
+#wcLogo{
+  width: 32px;
+
+}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .hero-container {
     justify-content: center;
@@ -992,7 +997,7 @@ span.pricing-title:after {
   }
 
   .mid-text{
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .how-it-works {
