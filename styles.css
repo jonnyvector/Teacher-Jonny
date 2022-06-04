@@ -645,9 +645,9 @@ span.word:after {
   height: 30%;
   position: absolute;
   left: 0;
-  margin-left: 0.5rem;
+  margin-left: 0.32rem;
   top: 65%;
-  width: calc(80%);
+  width: calc(78%);
   z-index: -1;
 }
 
@@ -687,9 +687,9 @@ span.testimonial-title2:after {
   height: 30%;
   position: absolute;
   left: 0;
-  margin-left: 2.5rem;
+  margin-left: 0rem;
   top: 65%;
-  width: calc(75%);
+  width: calc(100%);
   z-index: -1;
 }
 
