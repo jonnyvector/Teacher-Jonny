@@ -71,6 +71,12 @@ header {
   color: #333333;
 }
 
+.lang::before {
+  content: "|";
+  font-weight: 500;
+  margin-right: 1px;
+}
+
 .lang:hover {
   transition: all 0.3s ease-in-out;
   color: #03c29e;
@@ -129,7 +135,7 @@ header ul li {
 header ul li a {
   font-family: Poppins;
   position: relative;
-  margin: 0 16px;
+  margin: 0 14px;
   text-decoration: none;
   color: #333333;
   font-weight: 500;
@@ -641,6 +647,7 @@ span.word-first {
 
 span.word:after {
   background-color: #03c29e;
+  opacity: 0.6;
   content: " ";
   height: 30%;
   position: absolute;
@@ -662,6 +669,7 @@ span.hiw {
 
 span.hiw:after {
   background-color: #03c29e;
+  opacity: 0.6;
   content: " ";
   height: 30%;
   position: absolute;
@@ -682,14 +690,15 @@ span.testimonial-title2 {
 }
 
 span.testimonial-title2:after {
-  background-color: #03c29e;
+  background-color: #03c29f;
+  opacity: 0.6;
   content: " ";
   height: 30%;
   position: absolute;
   left: 0;
   margin-left: 0rem;
   top: 65%;
-  width: calc(100%);
+  width: calc(95%);
   z-index: -1;
 }
 
@@ -705,6 +714,7 @@ span.pricing-title {
 
 span.pricing-title:after {
   background-color: #03c29e;
+  opacity: 0.6;
   content: " ";
   height: 30%;
   position: absolute;

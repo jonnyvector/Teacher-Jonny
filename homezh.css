@@ -1,3 +1,49 @@
+span.word:after {
+  background-color: #03c29e;
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  margin-left: 0.5rem;
+  top: 65%;
+  width: calc(95%);
+  z-index: -1;
+}
+span.hiw:after {
+  background-color: #03c29e;
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  margin-left: 2.8rem;
+  top: 65%;
+  width: calc(64%);
+  z-index: -1;
+}
+span.testimonial-title2:after {
+  background-color: #03c29e;
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  margin-left: 0rem;
+  top: 65%;
+  width: calc(100%);
+  z-index: -1;
+}
+
+span.pricing-title:after {
+  background-color: #03c29e;
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  margin-left: 0;
+  top: 65%;
+  width: calc(100%);
+  z-index: -1;
+}
+
 @media only screen and (max-width: 760px) {
   span.word:after {
     background-color: #03c29e;
