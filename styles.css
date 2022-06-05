@@ -875,6 +875,10 @@ span.pricing-title:after {
     /* right: 0; */
     /* bottom: 0; */
   }
+
+  .call-to-action {
+    width: 500px;
+  }
 }
 /* #pay-button-1 {
   width: 106px;
@@ -1043,6 +1047,15 @@ span.pricing-title:after {
     display: flex;
     flex-direction: column;
     /* background-color: #03c29f2b; */
+  }
+
+  .call-to-action {
+    width: 320px;
+    padding: 32px 0;
+  }
+
+  .call-to-action-text {
+    margin: 24px 0;
   }
 
   .left-image img {
