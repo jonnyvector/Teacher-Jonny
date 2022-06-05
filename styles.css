@@ -1051,7 +1051,7 @@ span.pricing-title:after {
 
   .call-to-action {
     width: 320px;
-    padding: 32px 0;
+    padding: 32px 12px;
   }
 
   .call-to-action-text {
