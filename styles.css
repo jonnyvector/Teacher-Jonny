@@ -214,6 +214,22 @@ h1 {
   font-size: 40px;
 }
 
+.call-to-action {
+  width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffc77377;
+  border-radius: 25px;
+  padding: 60px;
+  margin-bottom: 100px;
+
+  /* opacity: 50%; */
+}
+
+.call-to-action-text {
+  margin: 40px;
+}
+
 .hero-container {
   box-sizing: border-box;
   justify-content: space-between;
@@ -1079,6 +1095,10 @@ span.pricing-title:after {
 
   .pricing-container {
     flex-direction: column;
+  }
+
+  .pricing-block {
+    margin: 24px;
   }
 
   span.testimonial-title:after {
