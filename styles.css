@@ -741,6 +741,32 @@ span.pricing-title:after {
   z-index: -1;
 }
 
+.call-to-action-header {
+  font-family: Montserrat;
+  font-size: 24px;
+}
+
+span.call-to-action-title {
+  align-items: center;
+  position: relative;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+span.call-to-action-title::after {
+  background-color: #03c29e;
+  opacity: 1;
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  margin-left: 0rem;
+  top: 65%;
+  width: calc(100%);
+  z-index: -1;
+}
+
 .scheduling {
   display: block;
   text-align: center;
