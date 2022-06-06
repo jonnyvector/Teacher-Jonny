@@ -295,7 +295,7 @@ iframe {
   display: flex;
   text-align: center;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
   max-width: 1040px;
   margin-top: 48px;
 }
@@ -356,7 +356,7 @@ iframe {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
   max-width: 1040px;
   margin-top: 48px;
 }
