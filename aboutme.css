@@ -50,6 +50,28 @@ span {
   font-size: 32px;
 }
 
+span#aboutMeHeader-first,
+span#aboutMeHeader {
+  align-items: center;
+  position: relative;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+span#aboutMeHeader:after {
+  background-color: #03c29e;
+  opacity: 0.6;
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  margin-left: 0rem;
+  top: 65%;
+  width: calc(100%);
+  z-index: -1;
+}
+
 .header {
   text-align: center;
   margin: 128px 0px 80px 0px;
@@ -89,10 +111,6 @@ span {
 .aboutme-img {
   margin: 12px;
   width: 500px;
-}
-
-#aboutMeHeader {
-  color: #03c29e;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {

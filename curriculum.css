@@ -67,6 +67,27 @@ body {
   margin: 64px 0;
   width: 350px;
 }
+/* span.curr-title-first,
+span.curr-title-second {
+  align-items: center;
+  position: relative;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+span.curr-title-second:after {
+  background-color: #03c29e;
+  opacity: 0.6;
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  margin-left: 5rem;
+  top: 65%;
+  width: calc(83%);
+  z-index: -1;
+} */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .hamburger {
