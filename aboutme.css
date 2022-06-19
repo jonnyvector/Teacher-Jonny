@@ -50,6 +50,28 @@ span {
   font-size: 32px;
 }
 
+/* span.about-me-title-first,
+span.about-me-title-second {
+  align-items: center;
+  position: relative;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+span.about-me-title-second::after {
+  background-color: #03c29e;
+  opacity: 0.6;
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  margin-left: 0rem;
+  top: 65%;
+  width: calc(100%);
+  z-index: -1;
+} */
+
 span#aboutMeHeader-first,
 span#aboutMeHeader {
   align-items: center;
