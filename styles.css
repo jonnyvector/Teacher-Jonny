@@ -395,7 +395,7 @@ iframe {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: RGB(11, 142, 118, 0.18);
+  background-color: RGB(3, 194, 158, 0.18);
   padding-bottom: 64px;
   /* margin-bottom: 64px; */
 }
@@ -585,7 +585,7 @@ iframe {
 
 .contact-me-container {
   margin-top: 24px;
-  padding-bottom: 80px;
+  padding: 40px 0;
 }
 
 .contact-me-button {
@@ -776,7 +776,7 @@ span.call-to-action-title::after {
   display: block;
   text-align: center;
   padding-top: 64px;
-  background-color: RGB(11, 142, 118, 0.18);
+  background-color: RGB(89, 157, 255, 0.1);
 }
 
 .calendly-inline-widget {
@@ -1082,6 +1082,14 @@ span.call-to-action-title::after {
     display: flex;
     flex-direction: column;
     /* background-color: #03c29f2b; */
+  }
+
+  .testimonial {
+    padding-bottom: 32px;
+  }
+
+  .scheduling {
+    padding-top: 32px;
   }
 
   .call-to-action {

@@ -130,6 +130,8 @@ span.curr-title-second:after {
   .curr-usp-container {
     display: flex;
     flex-direction: column;
+
+    align-items: center;
   }
 }
 
@@ -155,6 +157,8 @@ span.curr-title-second:after {
     display: flex;
     flex-direction: column;
     margin-top: 64px;
+    margin-bottom: 16px;
+    align-items: center;
   }
   .curr-usp-img {
     width: 120px;
@@ -162,6 +166,7 @@ span.curr-title-second:after {
     margin-bottom: 0px;
   }
   .curr-usp-text {
+    /* align-items: center; */
     margin: 24px 0px 56px 0px;
     width: 350px;
   }
